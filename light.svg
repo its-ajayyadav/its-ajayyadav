@@ -11,7 +11,7 @@
 <clipPath id="portrait"><rect x="35" y="35" width="428" height="540" rx="19"/></clipPath>
 <style>
 .name{font:750 43px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}
-.hello{font:600 20px Inter,Segoe UI,Arial,sans-serif;fill:#475569}
+.hello{font:600 20px Inter,Segoe UI,Arial,sans-serif;fill:#334155}
 .role{font:650 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:url(#accent)}
 .info{font:16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#475569}
 .skill{font:650 15px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}
@@ -21,8 +21,8 @@
 <rect width="1180" height="610" fill="#0F172A"/>
 <circle cx="150" cy="90" r="260" fill="url(#g1)"><animateTransform attributeName="transform" type="translate" values="0 0;45 25;0 0" dur="11s" repeatCount="indefinite"/></circle>
 <circle cx="1020" cy="510" r="300" fill="url(#g2)"><animateTransform attributeName="transform" type="translate" values="0 0;-50 -35;0 0" dur="13s" repeatCount="indefinite"/></circle>
-<rect x="18" y="18" width="1144" height="574" rx="24" fill="#FFFFFF" fill-opacity=".92" stroke="#0F172A" stroke-opacity=".12"/>
-<rect x="34" y="34" width="430" height="542" rx="20" fill="#0F172A" fill-opacity=".82" stroke="url(#accent)" stroke-opacity=".3"/>
+<rect x="18" y="18" width="1144" height="574" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-opacity="1"/>
+<rect x="34" y="34" width="430" height="542" rx="20" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".3"/>
 <g clip-path="url(#portrait)">
 <g transform="translate(-9 0) scale(1.20 1)">
 <text x="49" y="61" xml:space="preserve"
@@ -95,7 +95,7 @@ values="0 3;0 0;0 -2;0 0" dur="6s" repeatCount="indefinite"/>
 </text>
 </g>
 </g>
-<rect x="490" y="54" width="638" height="502" rx="20" fill="#0F172A" fill-opacity=".88" stroke="#0F172A" stroke-opacity=".14"/>
+<rect x="490" y="54" width="638" height="502" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-opacity="1"/>
 <circle cx="522" cy="82" r="6" fill="#FF5F57"/><circle cx="544" cy="82" r="6" fill="#FEBB2E"/><circle cx="566" cy="82" r="6" fill="#28C840"/>
 <text x="594" y="88" class="info" font-size="13">profile.sh</text>
 <text x="530" y="150" class="hello">Hi 👋, I'm</text>
@@ -112,7 +112,7 @@ values="0 3;0 0;0 -2;0 0" dur="6s" repeatCount="indefinite"/>
 <text x="604" y="476" text-anchor="middle" class="skill">Python</text>
 <rect x="672" y="450" width="138" height="40" rx="20" fill="url(#accent)" fill-opacity=".13" stroke="url(#accent)" stroke-opacity=".7"/>
 <text x="741" y="476" text-anchor="middle" class="skill">JavaScript</text>
-<line x1="530" y1="510" x2="1088" y2="510" stroke="#0F172A" stroke-opacity=".12"/>
+<line x1="530" y1="510" x2="1088" y2="510" stroke="#CBD5E1" stroke-opacity="1"/>
 <text x="548" y="540" class="info" font-size="14">github • @its-ajayyadav</text>
 <circle cx="1080" cy="535" r="5" fill="#10B981"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
 <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="url(#accent)" stroke-opacity=".32" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".15;.5;.15" dur="4s" repeatCount="indefinite"/></rect>

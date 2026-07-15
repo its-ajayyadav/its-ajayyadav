@@ -1,188 +1,295 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1180"
-     height="610"
-     viewBox="0 0 1180 610"
-     role="img"
-     aria-label="GitHub profile banner">
+width="1180"
+height="610"
+viewBox="0 0 1180 610"
+role="img"
+aria-label="GitHub profile banner for Aյɑվ վɑժɑѵ">
 
 <defs>
 
-  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
 
-    <stop offset="0%" stop-color="#7C3AED">
-      <animate
-        attributeName="stop-color"
-        values="#7C3AED;#22D3EE;#10B981;#7C3AED"
-        dur="8s"
-        repeatCount="indefinite"/>
-    </stop>
+<stop offset="0%" stop-color="#7C3AED">
+<animate
+attributeName="stop-color"
+values="#7C3AED;#22D3EE;#10B981;#7C3AED"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
 
-    <stop offset="50%" stop-color="#22D3EE">
-      <animate
-        attributeName="stop-color"
-        values="#22D3EE;#10B981;#7C3AED;#22D3EE"
-        dur="8s"
-        repeatCount="indefinite"/>
-    </stop>
+<stop offset="50%" stop-color="#22D3EE">
+<animate
+attributeName="stop-color"
+values="#22D3EE;#10B981;#7C3AED;#22D3EE"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
 
-    <stop offset="100%" stop-color="#10B981">
-      <animate
-        attributeName="stop-color"
-        values="#10B981;#7C3AED;#22D3EE;#10B981"
-        dur="8s"
-        repeatCount="indefinite"/>
-    </stop>
+<stop offset="100%" stop-color="#10B981">
+<animate
+attributeName="stop-color"
+values="#10B981;#7C3AED;#22D3EE;#10B981"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
 
-  </linearGradient>
+</linearGradient>
 
-  <linearGradient id="pillGradient">
 
-    <stop
-      offset="0%"
-      stop-color="#7C3AED"/>
+<linearGradient id="portraitGradient"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
 
-    <stop
-      offset="100%"
-      stop-color="#22D3EE"/>
+<stop offset="0%" stop-color="#A855F7">
 
-  </linearGradient>
+<animate
+attributeName="stop-color"
+values="#A855F7;#22D3EE;#10B981;#A855F7"
+dur="7s"
+repeatCount="indefinite"/>
 
-  <radialGradient id="purpleGlow">
+</stop>
 
-    <stop
-      offset="0%"
-      stop-color="#7C3AED"
-      stop-opacity=".32"/>
+<stop offset="50%" stop-color="#22D3EE">
 
-    <stop
-      offset="100%"
-      stop-color="#7C3AED"
-      stop-opacity="0"/>
+<animate
+attributeName="stop-color"
+values="#22D3EE;#10B981;#A855F7;#22D3EE"
+dur="7s"
+repeatCount="indefinite"/>
 
-  </radialGradient>
+</stop>
 
-  <radialGradient id="cyanGlow">
+<stop offset="100%" stop-color="#10B981">
 
-    <stop
-      offset="0%"
-      stop-color="#22D3EE"
-      stop-opacity=".22"/>
+<animate
+attributeName="stop-color"
+values="#10B981;#A855F7;#22D3EE;#10B981"
+dur="7s"
+repeatCount="indefinite"/>
 
-    <stop
-      offset="100%"
-      stop-color="#22D3EE"
-      stop-opacity="0"/>
+</stop>
 
-  </radialGradient>
+</linearGradient>
 
-  <filter id="asciiGlow">
 
-    <feGaussianBlur
-      stdDeviation="4"/>
+<linearGradient id="scanGradient"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="0%">
 
-  </filter>
+<stop
+offset="0%"
+stop-color="#22D3EE"
+stop-opacity="0"/>
 
-  <clipPath id="mainCard">
+<stop
+offset="50%"
+stop-color="#22D3EE"
+stop-opacity=".55"/>
 
-    <rect
-      width="1180"
-      height="610"
-      rx="28"/>
+<stop
+offset="100%"
+stop-color="#22D3EE"
+stop-opacity="0"/>
 
-  </clipPath>
+</linearGradient>
 
-  <style>
 
-    .ascii {
-      font-family:
-      ui-monospace,
-      SFMono-Regular,
-      Menlo,
-      Consolas,
-      monospace;
+<linearGradient id="pillGradient">
 
-      font-size:15px;
-      font-weight:700;
+<stop
+offset="0%"
+stop-color="#7C3AED"/>
 
-      fill:url(#accent);
-    }
+<stop
+offset="100%"
+stop-color="#22D3EE"/>
 
-    .name {
+</linearGradient>
 
-      font-family:
-      Inter,
-      Segoe UI,
-      Arial,
-      sans-serif;
 
-      font-size:43px;
+<radialGradient id="purpleGlow">
 
-      font-weight:750;
+<stop
+offset="0%"
+stop-color="#7C3AED"
+stop-opacity=".30"/>
 
-      fill:#F8FAFC;
-    }
+<stop
+offset="100%"
+stop-color="#7C3AED"
+stop-opacity="0"/>
 
-    .hello {
+</radialGradient>
 
-      font-family:
-      Inter,
-      Segoe UI,
-      Arial,
-      sans-serif;
 
-      font-size:20px;
+<radialGradient id="cyanGlow">
 
-      font-weight:600;
+<stop
+offset="0%"
+stop-color="#22D3EE"
+stop-opacity=".20"/>
 
-      fill:#94A3B8;
-    }
+<stop
+offset="100%"
+stop-color="#22D3EE"
+stop-opacity="0"/>
 
-    .role {
+</radialGradient>
 
-      font-family:
-      ui-monospace,
-      SFMono-Regular,
-      Menlo,
-      Consolas,
-      monospace;
 
-      font-size:22px;
+<filter id="portraitGlow"
+x="-30%"
+y="-30%"
+width="160%"
+height="160%">
 
-      font-weight:650;
+<feGaussianBlur
+stdDeviation="2.2"
+result="blur"/>
 
-      fill:url(#accent);
-    }
+<feMerge>
 
-    .information {
+<feMergeNode in="blur"/>
 
-      font-family:
-      ui-monospace,
-      SFMono-Regular,
-      Menlo,
-      Consolas,
-      monospace;
+<feMergeNode in="SourceGraphic"/>
 
-      font-size:16px;
+</feMerge>
 
-      fill:#94A3B8;
-    }
+</filter>
 
-    .skill {
 
-      font-family:
-      Inter,
-      Segoe UI,
-      Arial,
-      sans-serif;
+<clipPath id="mainCard">
 
-      font-size:15px;
+<rect
+width="1180"
+height="610"
+rx="28"/>
 
-      font-weight:650;
+</clipPath>
 
-      fill:#F8FAFC;
-    }
 
-  </style>
+<clipPath id="portraitPanel">
+
+<rect
+x="35"
+y="35"
+width="428"
+height="540"
+rx="19"/>
+
+</clipPath>
+
+
+<style>
+
+.ascii {
+
+font-family:
+ui-monospace,
+SFMono-Regular,
+Menlo,
+Monaco,
+Consolas,
+monospace;
+
+font-size:11px;
+
+font-weight:600;
+
+letter-spacing:.5px;
+
+fill:url(#portraitGradient);
+
+white-space:pre;
+
+}
+
+.name {
+
+font-family:
+Inter,
+Segoe UI,
+Arial,
+sans-serif;
+
+font-size:43px;
+
+font-weight:750;
+
+fill:#F8FAFC;
+
+}
+
+.hello {
+
+font-family:
+Inter,
+Segoe UI,
+Arial,
+sans-serif;
+
+font-size:20px;
+
+font-weight:600;
+
+fill:#94A3B8;
+
+}
+
+.role {
+
+font-family:
+ui-monospace,
+SFMono-Regular,
+Menlo,
+Consolas,
+monospace;
+
+font-size:22px;
+
+font-weight:650;
+
+fill:url(#accent);
+
+}
+
+.information {
+
+font-family:
+ui-monospace,
+SFMono-Regular,
+Menlo,
+Consolas,
+monospace;
+
+font-size:16px;
+
+fill:#94A3B8;
+
+}
+
+.skill {
+
+font-family:
+Inter,
+Segoe UI,
+Arial,
+sans-serif;
+
+font-size:15px;
+
+font-weight:650;
+
+fill:#F8FAFC;
+
+}
+
+</style>
 
 </defs>
 
@@ -190,432 +297,325 @@
 <g clip-path="url(#mainCard)">
 
 
-<!-- MAIN BACKGROUND -->
-
 <rect
-  width="1180"
-  height="610"
-  fill="#030712"/>
-
-
-<!-- ANIMATED BACKGROUND GLOWS -->
-
-<circle
-  cx="150"
-  cy="90"
-  r="260"
-  fill="url(#purpleGlow)">
-
-  <animateTransform
-
-    attributeName="transform"
-
-    type="translate"
-
-    values="
-    0 0;
-    45 25;
-    0 0"
-
-    dur="11s"
-
-    repeatCount="indefinite"/>
-
-</circle>
+width="1180"
+height="610"
+fill="#030712"/>
 
 
 <circle
-
-  cx="1020"
-
-  cy="510"
-
-  r="300"
-
-  fill="url(#cyanGlow)">
-
-  <animateTransform
-
-    attributeName="transform"
-
-    type="translate"
-
-    values="
-    0 0;
-    -50 -35;
-    0 0"
-
-    dur="13s"
-
-    repeatCount="indefinite"/>
-
-</circle>
-
-
-<!-- MAIN GLASS CARD -->
-
-<rect
-
-  x="18"
-
-  y="18"
-
-  width="1144"
-
-  height="574"
-
-  rx="24"
-
-  fill="#0F172A"
-
-  fill-opacity=".72"
-
-  stroke="#FFFFFF"
-
-  stroke-opacity=".09"/>
-
-
-<!-- ASCII PANEL -->
-
-<rect
-
-  x="34"
-
-  y="34"
-
-  width="430"
-
-  height="542"
-
-  rx="20"
-
-  fill="#030712"
-
-  fill-opacity=".42"
-
-  stroke="url(#accent)"
-
-  stroke-opacity=".30"/>
-
-
-<!-- ASCII PORTRAIT -->
-
-<g>
+cx="150"
+cy="90"
+r="260"
+fill="url(#purpleGlow)">
 
 <animateTransform
 
-  attributeName="transform"
+attributeName="transform"
 
-  type="translate"
+type="translate"
 
-  values="
-  0 0;
-  0 -7;
-  0 0"
+values="
+0 0;
+45 25;
+0 0"
 
-  dur="5s"
+dur="11s"
 
-  repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
+</circle>
 
-<text x="55" y="110" class="ascii">
 
-          ░▒▓████████▓▒░
+<circle
+cx="1020"
+cy="510"
+r="300"
+fill="url(#cyanGlow)">
 
-</text>
+<animateTransform
 
+attributeName="transform"
 
-<text x="55" y="130" class="ascii">
+type="translate"
 
-       ░▓████████████████▓░
+values="
+0 0;
+-50 -35;
+0 0"
 
-</text>
+dur="13s"
 
+repeatCount="indefinite"/>
 
-<text x="55" y="150" class="ascii">
+</circle>
 
-      ▓████████████████████▓
 
-</text>
+<rect
+x="18"
+y="18"
+width="1144"
+height="574"
+rx="24"
+fill="#0F172A"
+fill-opacity=".72"
+stroke="#FFFFFF"
+stroke-opacity=".09"/>
 
 
-<text x="55" y="170" class="ascii">
+<!-- LEFT PORTRAIT PANEL -->
 
-     ███████▓▒░░░░▒▓████████
+<rect
+x="34"
+y="34"
+width="430"
+height="542"
+rx="20"
+fill="#030712"
+fill-opacity=".46"
+stroke="url(#accent)"
+stroke-opacity=".30"/>
 
-</text>
 
+<g clip-path="url(#portraitPanel)">
 
-<text x="55" y="190" class="ascii">
 
-    █████▓░          ░▓██████
+<!-- PORTRAIT BACKGROUND GLOW -->
 
-</text>
+<ellipse
+cx="250"
+cy="300"
+rx="155"
+ry="215"
+fill="url(#purpleGlow)"
+opacity=".35">
 
+<animate
 
-<text x="55" y="210" class="ascii">
+attributeName="opacity"
 
-   █████▒   ▄▄▄▄▄▄▄▄   ▒█████
+values=".22;.42;.22"
 
-</text>
+dur="4s"
 
+repeatCount="indefinite"/>
 
-<text x="55" y="230" class="ascii">
+</ellipse>
 
-   ████▓  ▄██████████▄  ▓████
 
-</text>
+<!-- DETAILED ASCII PORTRAIT -->
 
+<g
+xml:space="preserve"
+filter="url(#portraitGlow)">
 
-<text x="55" y="250" class="ascii">
+<animateTransform
 
-   ████  ▓██▀      ▀██▓  ████
+attributeName="transform"
 
-</text>
+type="translate"
 
+values="
+0 0;
+0 -5;
+0 0"
 
-<text x="55" y="270" class="ascii">
+dur="5s"
 
-   ███▓  ██  ▄████▄  ██  ▓███
+repeatCount="indefinite"/>
 
-</text>
 
+<text x="77" y="104" class="ascii" opacity="0">                         .::--===--::.</text>
 
-<text x="55" y="290" class="ascii">
+<text x="77" y="118" class="ascii" opacity="0">                    .-=+*##########*+=-.</text>
 
-   ███▒  ██▄████████▄██  ▒███
+<text x="77" y="132" class="ascii" opacity="0">                 .-+####################+-.</text>
 
-</text>
+<text x="77" y="146" class="ascii" opacity="0">               .=##########################=.</text>
 
+<text x="77" y="160" class="ascii" opacity="0">              -##############################-</text>
 
-<text x="55" y="310" class="ascii">
+<text x="77" y="174" class="ascii" opacity="0">             +##########**********############+</text>
 
-   ███░   ▀██▓░░▓██▀     ░███
+<text x="77" y="188" class="ascii" opacity="0">            *#######*+=--::::::::--=+*########*</text>
 
-</text>
+<text x="77" y="202" class="ascii" opacity="0">           +######*=-.              .-=*#######+</text>
 
+<text x="77" y="216" class="ascii" opacity="0">          .######+:                    :+######.</text>
 
-<text x="55" y="330" class="ascii">
+<text x="77" y="230" class="ascii" opacity="0">          =#####+.      .:------:.      .+#####=</text>
 
-   ███      ▀████▀         ███
+<text x="77" y="244" class="ascii" opacity="0">          *####=     .-+**********+-.     =####*</text>
 
-</text>
+<text x="77" y="258" class="ascii" opacity="0">          ####*.    :+###*+====+*###+:    .*####</text>
 
+<text x="77" y="272" class="ascii" opacity="0">         .####+    .###*-.      .-*###.    +####.</text>
 
-<text x="55" y="350" class="ascii">
+<text x="77" y="286" class="ascii" opacity="0">         :####-    +##+.   .::.   .+##+    -####:</text>
 
-   ███▓       ▀▀          ▓███
+<text x="77" y="300" class="ascii" opacity="0">         :####:    *##:   .+**+.   :##*    :####:</text>
 
-</text>
+<text x="77" y="314" class="ascii" opacity="0">         .####-    +##+.   :--:   .+##+    -####.</text>
 
+<text x="77" y="328" class="ascii" opacity="0">          ####+    .###*-.      .-*###.    +####</text>
 
-<text x="55" y="370" class="ascii">
+<text x="77" y="342" class="ascii" opacity="0">          *####.    :+###*+====+*###+:    .####*</text>
 
-    ████░   ▄████▄      ░████
+<text x="77" y="356" class="ascii" opacity="0">          =####+      .-+********+-.      +####=</text>
 
-</text>
+<text x="77" y="370" class="ascii" opacity="0">          .#####+.        .::::.        .+#####.</text>
 
+<text x="77" y="384" class="ascii" opacity="0">           +######=.       .--.       .=######+</text>
 
-<text x="55" y="390" class="ascii">
+<text x="77" y="398" class="ascii" opacity="0">            *#######+-.    :++:    .-+#######*</text>
 
-     █████▄  ▀██▀     ▄█████
+<text x="77" y="412" class="ascii" opacity="0">             +########*+=--====--=+*########+</text>
 
-</text>
+<text x="77" y="426" class="ascii" opacity="0">              -############################-</text>
 
+<text x="77" y="440" class="ascii" opacity="0">               .=########################=.</text>
 
-<text x="55" y="410" class="ascii">
+<text x="77" y="454" class="ascii" opacity="0">                 .-+##################+-.</text>
 
-      ▀██████▄▄▄▄▄▄██████▀
+<text x="77" y="468" class="ascii" opacity="0">                    .-=+*########*+=-.</text>
 
-</text>
+<text x="77" y="482" class="ascii" opacity="0">                         .::--::.</text>
 
 
-<text x="55" y="430" class="ascii">
+<!-- LINE REVEAL ANIMATION -->
 
-        ▀██████████████▀
+<animate
+attributeName="opacity"
+values="0;1"
+dur=".25s"
+begin=".10s"
+fill="freeze"/>
 
-</text>
+</g>
 
 
-<text x="55" y="450" class="ascii">
+<!-- SOFT MOVING SCANLINE -->
 
-          ▀▓████████▓▀
+<rect
+x="58"
+y="80"
+width="380"
+height="2"
+fill="url(#scanGradient)"
+opacity=".35">
 
-</text>
+<animate
 
+attributeName="y"
 
-<text x="55" y="470" class="ascii">
+values="
+80;
+500;
+80"
 
-             ░▒▓▒░
+dur="7s"
 
-</text>
+repeatCount="indefinite"/>
+
+</rect>
 
 
 </g>
 
 
-<!-- MOVING SCAN LINE -->
+<!-- TERMINAL PANEL -->
 
 <rect
+x="490"
+y="54"
+width="638"
+height="502"
+rx="20"
+fill="#030712"
+fill-opacity=".52"
+stroke="#FFFFFF"
+stroke-opacity=".10"/>
 
-  x="34"
-
-  y="40"
-
-  width="430"
-
-  height="4"
-
-  fill="url(#accent)"
-
-  opacity=".60">
-
-  <animate
-
-    attributeName="y"
-
-    values="
-    40;
-    568;
-    40"
-
-    dur="5.5s"
-
-    repeatCount="indefinite"/>
-
-</rect>
-
-
-<!-- TERMINAL -->
-
-<rect
-
-  x="490"
-
-  y="54"
-
-  width="638"
-
-  height="502"
-
-  rx="20"
-
-  fill="#030712"
-
-  fill-opacity=".52"
-
-  stroke="#FFFFFF"
-
-  stroke-opacity=".10"/>
-
-
-<!-- TERMINAL BUTTONS -->
 
 <circle
-  cx="522"
-  cy="82"
-  r="6"
-  fill="#FF5F57"/>
+cx="522"
+cy="82"
+r="6"
+fill="#FF5F57"/>
 
 <circle
-  cx="544"
-  cy="82"
-  r="6"
-  fill="#FEBB2E"/>
+cx="544"
+cy="82"
+r="6"
+fill="#FEBB2E"/>
 
 <circle
-  cx="566"
-  cy="82"
-  r="6"
-  fill="#28C840"/>
+cx="566"
+cy="82"
+r="6"
+fill="#28C840"/>
 
 
 <text
-
-  x="594"
-
-  y="88"
-
-  class="information"
-
-  font-size="13">
+x="594"
+y="88"
+class="information"
+font-size="13">
 
 profile.sh
 
 </text>
 
 
-<!-- GREETING -->
-
 <text
-
-  x="530"
-
-  y="150"
-
-  class="hello">
+x="530"
+y="150"
+class="hello">
 
 Hi 👋, I'm
 
 </text>
 
 
-<!-- NAME -->
-
 <text
-
-  x="530"
-
-  y="199"
-
-  class="name">
+x="530"
+y="199"
+class="name">
 
 Aյɑվ վɑժɑѵ
 
 </text>
 
 
-<!--
-CLEAN ANIMATED JOB TITLES
-
-Only one title appears at a time.
-The complete animation repeats every 12 seconds.
--->
-
-
 <!-- SOFTWARE DEVELOPER -->
 
 <text
-
-  x="548"
-
-  y="250"
-
-  class="role"
-
-  opacity="0">
+x="548"
+y="250"
+class="role"
+opacity="0">
 
 Software Developer
 
 <animate
 
-  attributeName="opacity"
+attributeName="opacity"
 
-  values="
-  1;
-  1;
-  0;
-  0"
+values="
+1;
+1;
+0;
+0"
 
-  keyTimes="
-  0;
-  .30;
-  .33;
-  1"
+keyTimes="
+0;
+.30;
+.33;
+1"
 
-  dur="12s"
+dur="12s"
 
-  repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </text>
 
@@ -623,40 +623,36 @@ Software Developer
 <!-- AI AND AUTOMATION -->
 
 <text
-
-  x="548"
-
-  y="250"
-
-  class="role"
-
-  opacity="0">
+x="548"
+y="250"
+class="role"
+opacity="0">
 
 AI &amp; Automation Explorer
 
 <animate
 
-  attributeName="opacity"
+attributeName="opacity"
 
-  values="
-  0;
-  0;
-  1;
-  1;
-  0;
-  0"
+values="
+0;
+0;
+1;
+1;
+0;
+0"
 
-  keyTimes="
-  0;
-  .32;
-  .35;
-  .63;
-  .66;
-  1"
+keyTimes="
+0;
+.32;
+.35;
+.63;
+.66;
+1"
 
-  dur="12s"
+dur="12s"
 
-  repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </text>
 
@@ -664,38 +660,34 @@ AI &amp; Automation Explorer
 <!-- CYBERSECURITY -->
 
 <text
-
-  x="548"
-
-  y="250"
-
-  class="role"
-
-  opacity="0">
+x="548"
+y="250"
+class="role"
+opacity="0">
 
 Cybersecurity Enthusiast
 
 <animate
 
-  attributeName="opacity"
+attributeName="opacity"
 
-  values="
-  0;
-  0;
-  1;
-  1;
-  0"
+values="
+0;
+0;
+1;
+1;
+0"
 
-  keyTimes="
-  0;
-  .65;
-  .68;
-  .96;
-  1"
+keyTimes="
+0;
+.65;
+.68;
+.96;
+1"
 
-  dur="12s"
+dur="12s"
 
-  repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </text>
 
@@ -703,44 +695,35 @@ Cybersecurity Enthusiast
 <!-- BLINKING CURSOR -->
 
 <rect
+x="548"
+y="261"
+width="11"
+height="25"
+rx="2"
+fill="#22D3EE">
 
-  x="548"
+<animate
 
-  y="261"
+attributeName="opacity"
 
-  width="11"
+values="
+1;
+0;
+1"
 
-  height="25"
+dur=".85s"
 
-  rx="2"
-
-  fill="#22D3EE">
-
-  <animate
-
-    attributeName="opacity"
-
-    values="
-    1;
-    0;
-    1"
-
-    dur=".85s"
-
-    repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </rect>
 
 
-<!-- INFORMATION -->
+<!-- PROFILE INFORMATION -->
 
 <text
-
-  x="548"
-
-  y="320"
-
-  class="information">
+x="548"
+y="320"
+class="information">
 
 ⌖  India
 
@@ -748,12 +731,9 @@ Cybersecurity Enthusiast
 
 
 <text
-
-  x="548"
-
-  y="358"
-
-  class="information">
+x="548"
+y="358"
+class="information">
 
 ⌘  github.com/its-ajayyadav
 
@@ -761,190 +741,127 @@ Cybersecurity Enthusiast
 
 
 <text
-
-  x="548"
-
-  y="396"
-
-  class="information">
+x="548"
+y="396"
+class="information">
 
 ◎  Exploring AI, automation &amp; cybersecurity
 
 </text>
 
 
-<!-- SKILLS TITLE -->
+<!-- SKILLS -->
 
 <text
-
-  x="548"
-
-  y="435"
-
-  class="hello"
-
-  font-size="14">
+x="548"
+y="435"
+class="hello"
+font-size="14">
 
 SKILLS
 
 </text>
 
 
-<!-- PYTHON -->
-
-<g>
-
 <rect
-
-  x="548"
-
-  y="450"
-
-  width="112"
-
-  height="40"
-
-  rx="20"
-
-  fill="url(#pillGradient)"
-
-  fill-opacity=".13"
-
-  stroke="url(#accent)"
-
-  stroke-opacity=".70"/>
+x="548"
+y="450"
+width="112"
+height="40"
+rx="20"
+fill="url(#pillGradient)"
+fill-opacity=".13"
+stroke="url(#accent)"
+stroke-opacity=".70"/>
 
 
 <text
-
-  x="604"
-
-  y="476"
-
-  text-anchor="middle"
-
-  class="skill">
+x="604"
+y="476"
+text-anchor="middle"
+class="skill">
 
 Python
 
 </text>
 
-</g>
-
-
-<!-- JAVASCRIPT -->
-
-<g>
 
 <rect
-
-  x="672"
-
-  y="450"
-
-  width="138"
-
-  height="40"
-
-  rx="20"
-
-  fill="url(#pillGradient)"
-
-  fill-opacity=".13"
-
-  stroke="url(#accent)"
-
-  stroke-opacity=".70"/>
+x="672"
+y="450"
+width="138"
+height="40"
+rx="20"
+fill="url(#pillGradient)"
+fill-opacity=".13"
+stroke="url(#accent)"
+stroke-opacity=".70"/>
 
 
 <text
-
-  x="741"
-
-  y="476"
-
-  text-anchor="middle"
-
-  class="skill">
+x="741"
+y="476"
+text-anchor="middle"
+class="skill">
 
 JavaScript
 
 </text>
 
-</g>
-
-
-<!-- FOOTER LINE -->
-
-<line
-
-  x1="530"
-
-  y1="510"
-
-  x2="1088"
-
-  y2="510"
-
-  stroke="#FFFFFF"
-
-  stroke-opacity=".09"/>
-
 
 <!-- FOOTER -->
 
+<line
+x1="530"
+y1="510"
+x2="1088"
+y2="510"
+stroke="#FFFFFF"
+stroke-opacity=".09"/>
+
+
 <text
-
-  x="548"
-
-  y="540"
-
-  class="information"
-
-  font-size="14">
+x="548"
+y="540"
+class="information"
+font-size="14">
 
 github • @its-ajayyadav
 
 </text>
 
 
-<!-- ONLINE INDICATOR -->
-
 <circle
+cx="1080"
+cy="535"
+r="5"
+fill="#10B981">
 
-  cx="1080"
+<animate
 
-  cy="535"
+attributeName="r"
 
-  r="5"
+values="
+4;
+7;
+4"
 
-  fill="#10B981">
+dur="2s"
 
-  <animate
+repeatCount="indefinite"/>
 
-    attributeName="r"
+<animate
 
-    values="
-    4;
-    7;
-    4"
+attributeName="opacity"
 
-    dur="2s"
+values="
+.5;
+1;
+.5"
 
-    repeatCount="indefinite"/>
+dur="2s"
 
-  <animate
-
-    attributeName="opacity"
-
-    values="
-    .5;
-    1;
-    .5"
-
-    dur="2s"
-
-    repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </circle>
 
@@ -952,70 +869,54 @@ github • @its-ajayyadav
 <!-- GLASS REFLECTION -->
 
 <rect
+x="-250"
+y="18"
+width="170"
+height="574"
+fill="url(#accent)"
+opacity=".05"
+transform="skewX(-18)">
 
-  x="-250"
+<animate
 
-  y="18"
+attributeName="x"
 
-  width="170"
+values="
+-250;
+1350"
 
-  height="574"
+dur="8s"
 
-  fill="url(#accent)"
-
-  opacity=".055"
-
-  transform="skewX(-18)">
-
-  <animate
-
-    attributeName="x"
-
-    values="
-    -250;
-    1350"
-
-    dur="8s"
-
-    repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </rect>
 
 
-<!-- ANIMATED OUTER BORDER -->
+<!-- OUTER BORDER -->
 
 <rect
+x="18"
+y="18"
+width="1144"
+height="574"
+rx="24"
+fill="none"
+stroke="url(#accent)"
+stroke-opacity=".32"
+stroke-width="1.5">
 
-  x="18"
+<animate
 
-  y="18"
+attributeName="stroke-opacity"
 
-  width="1144"
+values="
+.15;
+.50;
+.15"
 
-  height="574"
+dur="4s"
 
-  rx="24"
-
-  fill="none"
-
-  stroke="url(#accent)"
-
-  stroke-opacity=".32"
-
-  stroke-width="1.5">
-
-  <animate
-
-    attributeName="stroke-opacity"
-
-    values="
-    .15;
-    .50;
-    .15"
-
-    dur="4s"
-
-    repeatCount="indefinite"/>
+repeatCount="indefinite"/>
 
 </rect>
 

@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img alt="GitHub profile banner for Aյɑվ վɑժɑѵ" src="./assets/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="GitHub profile banner for Aյɑվ վɑժɑѵ" src="./dark.svg" width="100%">
 </picture>
 
 <h1 align="center">Hi 👋, I'm Aյɑվ վɑժɑѵ</h1>

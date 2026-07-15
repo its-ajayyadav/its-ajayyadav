@@ -36,13 +36,16 @@ repeatCount="indefinite"/>
 </linearGradient>
 
 
-<linearGradient id="portraitGradient"
+<linearGradient
+id="portraitGradient"
 x1="0%"
 y1="0%"
 x2="100%"
 y2="100%">
 
-<stop offset="0%" stop-color="#A855F7">
+<stop
+offset="0%"
+stop-color="#A855F7">
 
 <animate
 attributeName="stop-color"
@@ -52,7 +55,9 @@ repeatCount="indefinite"/>
 
 </stop>
 
-<stop offset="50%" stop-color="#22D3EE">
+<stop
+offset="50%"
+stop-color="#22D3EE">
 
 <animate
 attributeName="stop-color"
@@ -62,7 +67,9 @@ repeatCount="indefinite"/>
 
 </stop>
 
-<stop offset="100%" stop-color="#10B981">
+<stop
+offset="100%"
+stop-color="#10B981">
 
 <animate
 attributeName="stop-color"
@@ -75,7 +82,8 @@ repeatCount="indefinite"/>
 </linearGradient>
 
 
-<linearGradient id="scanGradient"
+<linearGradient
+id="scanGradient"
 x1="0%"
 y1="0%"
 x2="100%"
@@ -89,7 +97,7 @@ stop-opacity="0"/>
 <stop
 offset="50%"
 stop-color="#22D3EE"
-stop-opacity=".55"/>
+stop-opacity=".45"/>
 
 <stop
 offset="100%"
@@ -142,14 +150,15 @@ stop-opacity="0"/>
 </radialGradient>
 
 
-<filter id="portraitGlow"
-x="-30%"
-y="-30%"
-width="160%"
-height="160%">
+<filter
+id="portraitGlow"
+x="-20%"
+y="-20%"
+width="140%"
+height="140%">
 
 <feGaussianBlur
-stdDeviation="2.2"
+stdDeviation="1.5"
 result="blur"/>
 
 <feMerge>
@@ -201,7 +210,7 @@ font-size:11px;
 
 font-weight:600;
 
-letter-spacing:.5px;
+letter-spacing:.3px;
 
 fill:url(#portraitGradient);
 
@@ -297,11 +306,15 @@ fill:#F8FAFC;
 <g clip-path="url(#mainCard)">
 
 
+<!-- BACKGROUND -->
+
 <rect
 width="1180"
 height="610"
 fill="#030712"/>
 
+
+<!-- BACKGROUND GLOWS -->
 
 <circle
 cx="150"
@@ -310,18 +323,10 @@ r="260"
 fill="url(#purpleGlow)">
 
 <animateTransform
-
 attributeName="transform"
-
 type="translate"
-
-values="
-0 0;
-45 25;
-0 0"
-
+values="0 0;45 25;0 0"
 dur="11s"
-
 repeatCount="indefinite"/>
 
 </circle>
@@ -334,22 +339,16 @@ r="300"
 fill="url(#cyanGlow)">
 
 <animateTransform
-
 attributeName="transform"
-
 type="translate"
-
-values="
-0 0;
--50 -35;
-0 0"
-
+values="0 0;-50 -35;0 0"
 dur="13s"
-
 repeatCount="indefinite"/>
 
 </circle>
 
+
+<!-- MAIN CARD -->
 
 <rect
 x="18"
@@ -363,7 +362,7 @@ stroke="#FFFFFF"
 stroke-opacity=".09"/>
 
 
-<!-- LEFT PORTRAIT PANEL -->
+<!-- LEFT PANEL -->
 
 <rect
 x="34"
@@ -380,121 +379,98 @@ stroke-opacity=".30"/>
 <g clip-path="url(#portraitPanel)">
 
 
-<!-- PORTRAIT BACKGROUND GLOW -->
-
 <ellipse
 cx="250"
 cy="300"
 rx="155"
 ry="215"
 fill="url(#purpleGlow)"
-opacity=".35">
+opacity=".32">
 
 <animate
-
 attributeName="opacity"
-
-values=".22;.42;.22"
-
+values=".20;.40;.20"
 dur="4s"
-
 repeatCount="indefinite"/>
 
 </ellipse>
 
 
-<!-- DETAILED ASCII PORTRAIT -->
+<!-- ASCII PORTRAIT -->
 
 <g
 xml:space="preserve"
 filter="url(#portraitGlow)">
 
 <animateTransform
-
 attributeName="transform"
-
 type="translate"
-
-values="
-0 0;
-0 -5;
-0 0"
-
+values="0 0;0 -5;0 0"
 dur="5s"
-
 repeatCount="indefinite"/>
 
 
-<text x="77" y="104" class="ascii" opacity="0">                         .::--===--::.</text>
+<text x="75" y="100" class="ascii">                         .::--===--::.</text>
 
-<text x="77" y="118" class="ascii" opacity="0">                    .-=+*##########*+=-.</text>
+<text x="75" y="114" class="ascii">                    .-=+*##########*+=-.</text>
 
-<text x="77" y="132" class="ascii" opacity="0">                 .-+####################+-.</text>
+<text x="75" y="128" class="ascii">                 .-+####################+-.</text>
 
-<text x="77" y="146" class="ascii" opacity="0">               .=##########################=.</text>
+<text x="75" y="142" class="ascii">               .=##########################=.</text>
 
-<text x="77" y="160" class="ascii" opacity="0">              -##############################-</text>
+<text x="75" y="156" class="ascii">              -##############################-</text>
 
-<text x="77" y="174" class="ascii" opacity="0">             +##########**********############+</text>
+<text x="75" y="170" class="ascii">             +##########**********############+</text>
 
-<text x="77" y="188" class="ascii" opacity="0">            *#######*+=--::::::::--=+*########*</text>
+<text x="75" y="184" class="ascii">            *#######*+=--::::::::--=+*########*</text>
 
-<text x="77" y="202" class="ascii" opacity="0">           +######*=-.              .-=*#######+</text>
+<text x="75" y="198" class="ascii">           +######*=-.              .-=*#######+</text>
 
-<text x="77" y="216" class="ascii" opacity="0">          .######+:                    :+######.</text>
+<text x="75" y="212" class="ascii">          .######+:                    :+######.</text>
 
-<text x="77" y="230" class="ascii" opacity="0">          =#####+.      .:------:.      .+#####=</text>
+<text x="75" y="226" class="ascii">          =#####+.      .:------:.      .+#####=</text>
 
-<text x="77" y="244" class="ascii" opacity="0">          *####=     .-+**********+-.     =####*</text>
+<text x="75" y="240" class="ascii">          *####=     .-+**********+-.     =####*</text>
 
-<text x="77" y="258" class="ascii" opacity="0">          ####*.    :+###*+====+*###+:    .*####</text>
+<text x="75" y="254" class="ascii">          ####*.    :+###*+====+*###+:    .*####</text>
 
-<text x="77" y="272" class="ascii" opacity="0">         .####+    .###*-.      .-*###.    +####.</text>
+<text x="75" y="268" class="ascii">         .####+    .###*-.      .-*###.    +####.</text>
 
-<text x="77" y="286" class="ascii" opacity="0">         :####-    +##+.   .::.   .+##+    -####:</text>
+<text x="75" y="282" class="ascii">         :####-    +##+.   .::.   .+##+    -####:</text>
 
-<text x="77" y="300" class="ascii" opacity="0">         :####:    *##:   .+**+.   :##*    :####:</text>
+<text x="75" y="296" class="ascii">         :####:    *##:   .+**+.   :##*    :####:</text>
 
-<text x="77" y="314" class="ascii" opacity="0">         .####-    +##+.   :--:   .+##+    -####.</text>
+<text x="75" y="310" class="ascii">         .####-    +##+.   :--:   .+##+    -####.</text>
 
-<text x="77" y="328" class="ascii" opacity="0">          ####+    .###*-.      .-*###.    +####</text>
+<text x="75" y="324" class="ascii">          ####+    .###*-.      .-*###.    +####</text>
 
-<text x="77" y="342" class="ascii" opacity="0">          *####.    :+###*+====+*###+:    .####*</text>
+<text x="75" y="338" class="ascii">          *####.    :+###*+====+*###+:    .####*</text>
 
-<text x="77" y="356" class="ascii" opacity="0">          =####+      .-+********+-.      +####=</text>
+<text x="75" y="352" class="ascii">          =####+      .-+********+-.      +####=</text>
 
-<text x="77" y="370" class="ascii" opacity="0">          .#####+.        .::::.        .+#####.</text>
+<text x="75" y="366" class="ascii">          .#####+.        .::::.        .+#####.</text>
 
-<text x="77" y="384" class="ascii" opacity="0">           +######=.       .--.       .=######+</text>
+<text x="75" y="380" class="ascii">           +######=.       .--.       .=######+</text>
 
-<text x="77" y="398" class="ascii" opacity="0">            *#######+-.    :++:    .-+#######*</text>
+<text x="75" y="394" class="ascii">            *#######+-.    :++:    .-+#######*</text>
 
-<text x="77" y="412" class="ascii" opacity="0">             +########*+=--====--=+*########+</text>
+<text x="75" y="408" class="ascii">             +########*+=--====--=+*########+</text>
 
-<text x="77" y="426" class="ascii" opacity="0">              -############################-</text>
+<text x="75" y="422" class="ascii">              -############################-</text>
 
-<text x="77" y="440" class="ascii" opacity="0">               .=########################=.</text>
+<text x="75" y="436" class="ascii">               .=########################=.</text>
 
-<text x="77" y="454" class="ascii" opacity="0">                 .-+##################+-.</text>
+<text x="75" y="450" class="ascii">                 .-+##################+-.</text>
 
-<text x="77" y="468" class="ascii" opacity="0">                    .-=+*########*+=-.</text>
+<text x="75" y="464" class="ascii">                    .-=+*########*+=-.</text>
 
-<text x="77" y="482" class="ascii" opacity="0">                         .::--::.</text>
+<text x="75" y="478" class="ascii">                         .::--::.</text>
 
-
-<!-- LINE REVEAL ANIMATION -->
-
-<animate
-attributeName="opacity"
-values="0;1"
-dur=".25s"
-begin=".10s"
-fill="freeze"/>
 
 </g>
 
 
-<!-- SOFT MOVING SCANLINE -->
+<!-- THIN SCANLINE -->
 
 <rect
 x="58"
@@ -502,19 +478,12 @@ y="80"
 width="380"
 height="2"
 fill="url(#scanGradient)"
-opacity=".35">
+opacity=".30">
 
 <animate
-
 attributeName="y"
-
-values="
-80;
-500;
-80"
-
+values="80;510;80"
 dur="7s"
-
 repeatCount="indefinite"/>
 
 </rect>
@@ -523,7 +492,7 @@ repeatCount="indefinite"/>
 </g>
 
 
-<!-- TERMINAL PANEL -->
+<!-- TERMINAL -->
 
 <rect
 x="490"
@@ -536,6 +505,8 @@ fill-opacity=".52"
 stroke="#FFFFFF"
 stroke-opacity=".10"/>
 
+
+<!-- TERMINAL BUTTONS -->
 
 <circle
 cx="522"
@@ -567,6 +538,8 @@ profile.sh
 </text>
 
 
+<!-- GREETING -->
+
 <text
 x="530"
 y="150"
@@ -576,6 +549,8 @@ Hi 👋, I'm
 
 </text>
 
+
+<!-- NAME -->
 
 <text
 x="530"
@@ -587,7 +562,7 @@ Aյɑվ վɑժɑѵ
 </text>
 
 
-<!-- SOFTWARE DEVELOPER -->
+<!-- TITLE 1 -->
 
 <text
 x="548"
@@ -598,29 +573,16 @@ opacity="0">
 Software Developer
 
 <animate
-
 attributeName="opacity"
-
-values="
-1;
-1;
-0;
-0"
-
-keyTimes="
-0;
-.30;
-.33;
-1"
-
+values="1;1;0;0"
+keyTimes="0;.30;.33;1"
 dur="12s"
-
 repeatCount="indefinite"/>
 
 </text>
 
 
-<!-- AI AND AUTOMATION -->
+<!-- TITLE 2 -->
 
 <text
 x="548"
@@ -631,33 +593,16 @@ opacity="0">
 AI &amp; Automation Explorer
 
 <animate
-
 attributeName="opacity"
-
-values="
-0;
-0;
-1;
-1;
-0;
-0"
-
-keyTimes="
-0;
-.32;
-.35;
-.63;
-.66;
-1"
-
+values="0;0;1;1;0;0"
+keyTimes="0;.32;.35;.63;.66;1"
 dur="12s"
-
 repeatCount="indefinite"/>
 
 </text>
 
 
-<!-- CYBERSECURITY -->
+<!-- TITLE 3 -->
 
 <text
 x="548"
@@ -668,31 +613,16 @@ opacity="0">
 Cybersecurity Enthusiast
 
 <animate
-
 attributeName="opacity"
-
-values="
-0;
-0;
-1;
-1;
-0"
-
-keyTimes="
-0;
-.65;
-.68;
-.96;
-1"
-
+values="0;0;1;1;0"
+keyTimes="0;.65;.68;.96;1"
 dur="12s"
-
 repeatCount="indefinite"/>
 
 </text>
 
 
-<!-- BLINKING CURSOR -->
+<!-- CURSOR -->
 
 <rect
 x="548"
@@ -703,22 +633,15 @@ rx="2"
 fill="#22D3EE">
 
 <animate
-
 attributeName="opacity"
-
-values="
-1;
-0;
-1"
-
+values="1;0;1"
 dur=".85s"
-
 repeatCount="indefinite"/>
 
 </rect>
 
 
-<!-- PROFILE INFORMATION -->
+<!-- DETAILS -->
 
 <text
 x="548"
@@ -838,35 +761,21 @@ r="5"
 fill="#10B981">
 
 <animate
-
 attributeName="r"
-
-values="
-4;
-7;
-4"
-
+values="4;7;4"
 dur="2s"
-
 repeatCount="indefinite"/>
 
 <animate
-
 attributeName="opacity"
-
-values="
-.5;
-1;
-.5"
-
+values=".5;1;.5"
 dur="2s"
-
 repeatCount="indefinite"/>
 
 </circle>
 
 
-<!-- GLASS REFLECTION -->
+<!-- REFLECTION -->
 
 <rect
 x="-250"
@@ -878,21 +787,15 @@ opacity=".05"
 transform="skewX(-18)">
 
 <animate
-
 attributeName="x"
-
-values="
--250;
-1350"
-
+values="-250;1350"
 dur="8s"
-
 repeatCount="indefinite"/>
 
 </rect>
 
 
-<!-- OUTER BORDER -->
+<!-- BORDER -->
 
 <rect
 x="18"
@@ -906,16 +809,9 @@ stroke-opacity=".32"
 stroke-width="1.5">
 
 <animate
-
 attributeName="stroke-opacity"
-
-values="
-.15;
-.50;
-.15"
-
+values=".15;.50;.15"
 dur="4s"
-
 repeatCount="indefinite"/>
 
 </rect>
